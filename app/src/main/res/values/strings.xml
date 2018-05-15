@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CODE TESTERS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Detaild Description</string>
+    <string name="text_line">|</string>
+    <string name="try_again">Reconnect</string>
+    <string name="text_signupform">Sign Up Form</string>
+    <string name="text_alreadymember">Already a member? Login</string>
+    <string name="text_donthaveaccount">Do not have account?Create one</string>
+    <string name="text_entervalidphonenumber">Enter Valid Phone Number to Received Code</string>
+    <string name="text_passwordresetheading"> Reset Password</string>
+    <string name="btn_textproceed">Proceed</string>
+    <string name="text_aboutus"> An online exam preparation system that permits a candidates to register itself
+        either through website or mobile application. After registration, preparation test system permits candidate
+        either to select trail base test or paid test. On any selection a window displayed showing different
+        types of test of different categories like HTML, PHP. If selection is trial based, then result is shown
+        at every attempt. While, on selecting paid base option, total 40 question will be asked, showing
+        question one by one with a time clock of 30 seconds. After that result will show on the basis of percentage.
+        Admin of application can add subject type, subject categories and also input questions and their answer according
+        to subject wise. Admin would also verify the user payment and after verification of payment, admin would activate
+        the user requested exam for exam test preparation.</string>
+
+    <string name="text_outstandingonlinequizdetails"> CODE TESTERS brings the best online qualified quiz testing system. Our team is
+    fully dedicated and committed to impart its candidates with a hands on learning programming experience.</string>
+
+    <string name="text_skillenhancedetails"> CODE TESTERS is excellent means to impart skills required to score well in the
+    programming languages offered by us. it play an essential role in candidates motivation who are willing to do enhance
+        programiing skills. </string>
+    <string name="text_shareproblemheading"> Share Your Problem With Us</string>
+    <string name="text_entervalidusername">Enter Your Valid Registered Username</string>
+    <string name="string_textnews">This Feature will be coming Soon!</string>
+    <string name="text_optionA">A:</string>
+    <string name="text_optionB">B:</string>
+    <string name="text_optionC">C:</string>
+    <string name="text_optionD">D:</string>
+    <string name="btnback">Back</string>
+    <string name="btnnext">Next</string>
+    <string name="texttotalquestion">Total Question:</string>
+    <string name="textattemptedques">Attempted Question:</string>
+    <string name="textcorrectques">Correct Answers:</string>
+    <string name="textIncorrectAns">Incorrect Answers:</string>
+    <string name="dialogtitle">Thank You</string>
+    <string name="dialogmessage">Your test is completed!</string>
+    <string name="textheadingresult">Your Results</string>
+    <string name="textreaddiscription">Read Description Carefully!</string>
+    <string name="textreaddescription1">1. Make Sure, Once you start your test, Perform it with full concentration.</string>
+    <string name="textreaddescription2">2. Once if you click on Either at End Test button or Back Press, you will unable to perfrom further test.</string>
+    <string name="textreaddescription3">3. On Click Next button, the new question wil be appear on screen</string>
+    <string name="textreaddescription4">4. Total Time shown on the screen. You must be manage your time.</string>
+    <string name="textreaddescription5">5. If availability staus showing true, then you will be able to perform the test.</string>
+    <string name="textreaddescription6">6. Once you perform the given test, you will unable to perform that test again before 24 hours.</string>
+    <string name="textresult">Result</string>
+    <string name="InternetConnection">Reonnect internet</string>
+</resources>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeeshanjaved.fyp_app.FaqsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollbarfaqs"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textque1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q1/ How do we register with Code Testers for attempting quiz?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its very simple"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2/ Is there any institute available for Code Testers classes ?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No, there is no such type of any institute in your country. This is only an Online quiz system. "
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3/ Who can apply for Code Testers?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anyone can apply for Code Testers. But its necessary for applicant
+                           having programming language background that offered by Code Testers."
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q4/ What is the eligibility criteria for applicant?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applicant should have acknowledge of programming language before using Code Testers. "
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q5/ What are the courses offered by Code Testers? "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code Testers offering the different programming language courses just like Php, Html5, Android application, Java and many more."
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q1/ How do we register with Code Testers for attempting quiz?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its very simple"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2/ Is there any institute available for Code Testers classes ?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No, there is no such type of any institute in your country. This is only an Online quiz system. "
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3/ Who can apply for Code Testers?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anyone can apply for Code Testers. But its necessary for applicant
+                           having programming language background that offered by Code Testers."
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q4/ What is the eligibility criteria for applicant?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applicant should have acknowledge of programming language before using Code Testers. "
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textque10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q5/ What are the courses offered by Code Testers? "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+            <TextView
+                android:id="@+id/textans10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code Testers offering the different programming language courses just like Php, Html5, Android application, Java and many more."
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#282531" />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

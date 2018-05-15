@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeeshanjaved.fyp_app.ContactActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contactscrollview">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textcontactheading"
+                android:text="@string/text_shareproblemheading"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="90"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="20">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="42dp"
+                        android:id="@+id/imgcontactname"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/name"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textline1"
+                        android:text="@string/text_line"
+                        android:textSize="30dp"/>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editcontactname"
+                        android:hint="Enter Name"
+                        android:inputType="text"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="42dp"
+                        android:id="@+id/imgcontactnum"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/contact"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textline2"
+                        android:text="@string/text_line"
+                        android:textSize="30dp"/>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editcontactnum"
+                        android:hint="Enter Contact No."
+                        android:inputType="phone"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="20dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="42dp"
+                        android:id="@+id/imgcontactemail"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/email"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textline3"
+                        android:text="@string/text_line"
+                        android:textSize="30dp"/>
+
+                    <EditText
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editcontactemail"
+                        android:hint="Enter Email"
+                        android:inputType="textEmailAddress"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="20dp">
+
+                    <EditText
+                        android:hint="Write your Message..."
+                        android:id="@+id/editproblem"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:layout_marginLeft="60dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btncotactproceed"
+                        android:text="Proceed"
+                        android:layout_gravity="center"
+                        android:background="@drawable/my_button_bg"
+                        android:textColor="@color/btntextcolor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

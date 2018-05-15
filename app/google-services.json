@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "242603894243",
+    "firebase_url": "https://finalfypapp-e090e.firebaseio.com",
+    "project_id": "finalfypapp-e090e",
+    "storage_bucket": "finalfypapp-e090e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242603894243:android:a444f2b552f31daf",
+        "android_client_info": {
+          "package_name": "com.example.zeeshanjaved.fyp_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242603894243-v85lb1vlc0ai1oq6rc4a078oae2fuv1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zeeshanjaved.fyp_app",
+            "certificate_hash": "37277c858aeea6bf94e5993af8da0c822fc3c2e2"
+          }
+        },
+        {
+          "client_id": "242603894243-qfuvl2usf42it6b812ot7uhsvut5plvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0A0qBhtCg7ijCN-YrWOhvE9Uy00GRgXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242603894243-qfuvl2usf42it6b812ot7uhsvut5plvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
