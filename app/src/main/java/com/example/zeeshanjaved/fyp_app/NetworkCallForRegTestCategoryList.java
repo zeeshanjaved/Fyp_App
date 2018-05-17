@@ -55,7 +55,6 @@ public class NetworkCallForRegTestCategoryList extends AsyncTask<Void,Void,Strin
                 .url(IP_ADDRESS+"gettestlist")
                 .post(requestBody)
                 .build();
-
         try {
             Response response = okHttpClient.newCall(request).execute();
             jsonresult = response.body().string();
@@ -69,7 +68,6 @@ public class NetworkCallForRegTestCategoryList extends AsyncTask<Void,Void,Strin
     @Override
     protected void onPostExecute(String s) {
         super.onPostExecute(s);
-
 
         Gson gson = new Gson();
         List<RegTestCategoryListModel> regTestCategoryListModels = gson.fromJson(jsonresult,
